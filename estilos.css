@@ -1,1 +1,7 @@
-
+.texto {
+    position: absolute;
+    bottom: 28%;
+    right: 15%;
+    width: 30vw;
+    height: 28vh;
+}
