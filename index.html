@@ -78,7 +78,7 @@
     <section>
       <div class="container mb-4 mt-4">
         <div class="row">
-          <div class="col card" style="width: 18rem;">
+          <div class="col-md card bg-info me-3" style="width: 18rem;">
             <img src="img/steve.jpg" class="card-img-top" alt="Steve">
             <div class="card-body">
               <h5 class="card-title">Steve Jobs</h5>
@@ -90,7 +90,7 @@
               </p>
             </div>
           </div>
-          <div class="col card" style="width: 18rem;">
+          <div class="col-md card bg-danger me-3" style="width: 18rem;">
             <img src="img/bill.jpg" class="card-img-top" alt="Bill">
             <div class="card-body">
               <h5 class="card-title">Bill Gates</h5>
@@ -102,7 +102,7 @@
               </p>
             </div>
           </div>
-          <div class="col card" style="width: 18rem;">
+          <div class="col-md card bg-warning" style="width: 18rem;">
             <img src="img/ada.jpeg" class="card-img-top" alt="Ada">
             <div class="card-body">
               <h5 class="card-title">Ada Lovelace</h5>
@@ -134,27 +134,27 @@
         </div>
       </div>
     </section>
-    <form action="" class="container-fluid">
-      <div class="text-center mb-3 mt-3">
-        <div>
-          <h2>Convierte en <br> ORADOR</h2>
-          <P>Anotate como orador para dar una charla ignite. Cuentanos de que quieres hablar!</P>
+    <div class="container">
+      <form class="row mb-3 mt-3" action="" class="container-fluid">
+          <div class="col-12 text-center">
+            <h2>Convierte en <br> ORADOR</h2>
+            <P>Anotate como orador para dar una charla ignite. Cuentanos de que quieres hablar!</P>
+          </div>
+        <div class="col-5 mb-3">
+            <input type="text" name="Nombre" class="form-control" placeholder="Nombre">
+        </div>
+        <div class="col-5 mb-3">
+            <input type="text" name="Apellido" class="form-control" placeholder="Apellido">
         </div>
         <div>
-          <input type="text" name="Nombre" placeholder="Nombre">
-        </div>
-        <div>
-          <input type="text" name="Apellido" placeholder="Apellido">
-        </div>
-        <div>
-          <input type="text" name="Apellido" placeholder="Sobre que quieres hablar?">
-          <p>Recuerda incluir un titulo para tu charla</p>
+            <textarea class="form-control" rows="5" placeholder="Sobre que quieres hablar?"></textarea>
+            <p>Recuerda incluir un titulo para tu charla</p>
         </div>
         <div class="d-grid gap-2 col-6 mx-auto">
-          <button class="btn btn-primary" type="button">Enviar</button>
+            <button class="btn btn-primary" type="button">Enviar</button>
         </div>
-      </div>
-    </form>
+      </form>
+    </div>
     <footer class="container-fluid bg-dark bg-gradient">
       <div class="row">
         <div class="col-sm">
