@@ -13,13 +13,13 @@ function calcularPago() {
     let total = cantidad.value * ticket;
 
     switch (categoria.value) {
-        case "estudiante":
+        case "Estudiante":
             total = total - (total * descuentoEstudiante);
             break;
-        case "trainee":
+        case "Trainee":
             total = total - (total * descuentoTraine);
             break;
-        case "junior":
+        case "Junior":
             total = total - (total * descuentoJunior);
             break;
     }
